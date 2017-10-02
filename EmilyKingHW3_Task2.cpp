@@ -3,6 +3,7 @@ using namespace std;
 
 //Yeah, I have no idea what I am doing
 //This is just a raw file of what needs to happen. 
+//If I cannot figure this out by 7 I am calling my brother and asking him to help me out. 
 int main() {
     int objectNumber = 1;
     while (1) {
