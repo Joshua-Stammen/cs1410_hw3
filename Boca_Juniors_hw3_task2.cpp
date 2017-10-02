@@ -5,7 +5,6 @@
 
 // Created by Joshua Stammen on 9/26/2017 for CS1410.
 
-
 // Copyright (c) 2017 WSU
 
 //
@@ -24,6 +23,8 @@ enum serial {ObjectZero, ObjectOne, ObjectTwo, ObjectThree};
 void ShowSerial(serial);
 
 // Main Program Program
+
+//A little closer to what is needed
 
 int main(void) {
     
