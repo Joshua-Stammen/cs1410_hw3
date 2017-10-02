@@ -1,26 +1,19 @@
 #include <iostream>
 using namespace std;
 
-enum objectClass {alpha, beta, gamma};
-void showSerial(objectClass);
+//Yeah, I have no idea what I am doing
+
 int main() {
-
-    objectClass object;
-
-    showSerial(alpha);
-    showSerial(beta);
-    showSerial(gamma);
-    cout << "Hello, World" << endl;
-    return 0;
+    int objectNumber = 1;
+    while (1) {
+        cout << "I am object number " << objectNumber <<endl;
+        objectNumber ++;
+        if (objectNumber > 4) {
+            return 0;
+        }
+    }
 }
-void showSerial(objectClass) {
-    cout << "I am object number " << objectClass() <<endl;
 
-}
-int Objectnumber(int on) {
-    on = 0;
-    return on;
-};
 
 /*Create a class that includes a data member that holds a
  * “serial number” for each object created from then class.
@@ -36,4 +29,8 @@ int Objectnumber(int on) {
  * own serial number. Create a function that takes the class
  * “serial” as input parameter and displays the appropriate
  * serial number for the object. You may use the following
- * code for you main function.*/
+ * code for you main function.
+ * Sample output
+ * I am object number 1
+ * I am object number 2
+ * I am object number 3 */
