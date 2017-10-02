@@ -19,13 +19,27 @@ using namespace std;
 
 
 // Prototypes
+enum serial {ObjectZero, ObjectOne, ObjectTwo, ObjectThree};
 
+void ShowSerial(serial);
 
 // Main Program Program
 
 int main(void) {
+    
+serial alpha, beta, gamma; //make some objects
+
+    alpha = ObjectOne;
+    beta = ObjectTwo;
+    gamma = ObjectThree;
+    cout << "I am object number " << alpha <<endl;
+    cout << "I am object number " << beta <<endl;
+    cout << "I am object number " << gamma <<endl;
 
 
+ //ShowSerial(alpha);
+ //ShowSerial(beta);
+ //ShowSerial(gamma);
     return 0;
 
 }
