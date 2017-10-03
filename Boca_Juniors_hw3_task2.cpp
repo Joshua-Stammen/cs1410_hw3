@@ -20,8 +20,6 @@ using namespace std;
 // Prototypes
 enum serial {PlaceHolder, ObjectOne, ObjectTwo, ObjectThree};
 
-void ShowSerial(serial);
-
 // Main Program Program
 
 int main(void) {
